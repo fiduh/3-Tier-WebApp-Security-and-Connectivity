@@ -7,7 +7,7 @@ Create a hosted zone for the domain - Create an alias record (the same region as
 
 ### AWS WAF protects your web application from common web exploits/attacks at the application layer (OSI Layer 7) as against NACLs/Security Groups which provide protection at the network/transport layer (OSI Layer 3/4). WAF also enables you to monitor incoming traffic metrics using CloudWatch
 
-### WAF components: Access Control Lists (ACL), Rules and Rule Groups
+### WAF components: Access Control Lists (ACL), Rules, and Rule Groups(Rules can be used individually or in reusable rule groups)
 
 ### Web ACLs
 Create a web access control list (ACL) by adding rules to protect your resources (including managed rules maintained by AWS)
@@ -15,9 +15,7 @@ Create a web access control list (ACL) by adding rules to protect your resources
 ### Rules 
 Create rules to look for certain criteria and take action if the criteria are met (e.g., Allow request or Block request)
 Each rule is assigned a WCU (Web ACL capacity unit), and all rules assigned to a particular Web ACL are capped at 5000 WCU, but using over 1500 WCUs affects your costs.
-
-### Rules groups
-Rules can be used individually or in reusable rule groups
+![Request a public certificate](./assets/RequestPublicCert.png)
 
 ### AWS ACM - Provisions, manages, and deploys public/private SSL/TLS Certificates
 Request a public certificate
