@@ -12,6 +12,7 @@ Understanding AWS Route 53 DNS Resolver, WAF Firewall, ACM, ALB, EC2 web servere
 ### WAF components: 
 
 ### AWS ACM - Provisions, manages, and deploys public/private SSL/TLS Certificates
+Request a public certificate
 
 ### AWS ALB - Distributes incoming traffic across multiple targets, such as EC2 instances.
 
