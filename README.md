@@ -7,7 +7,7 @@ Practical use case for AWS Route 53, WAF Firewall, ACM, ALB, EC2 webserver
 
 ### AWS WAF - protects your web application from common web exploits/attacks at the application layer (OSI Layer 7) as against NACLs/Security Groups which provide protection at the network/transport layer (OSI Layer 3/4). WAF also enables you to monitor incoming traffic metrics using CloudWatch
 
-***WAF components: Access Control Lists (ACL), Rules, and Rule Groups(Rules can be used individually or in reusable rule groups)***
+>***WAF components: Access Control Lists (ACL), Rules, and Rule Groups(Rules can be used individually or in reusable rule groups)***
 
 #### Web ACLs
 Create a web access control list (ACL) by adding rules to protect your resources (including managed rules maintained by AWS), and associate the web ACL to your ALB
