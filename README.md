@@ -15,7 +15,7 @@ Create a web access control list (ACL) by adding rules to protect your resources
 ### Rules 
 Create rules to look for certain criteria and take action if the criteria are met (e.g., Allow request or Block request)
 Each rule is assigned a WCU (Web ACL capacity unit), and all rules assigned to a particular Web ACL are capped at 5000 WCU, but using over 1500 WCUs affects your costs.
-![Request a public certificate](./assets/RequestPublicCert.png)
+![Request a public certificate](./assets/WAFrules.png)
 
 ### AWS ACM - Provisions, manages, and deploys public/private SSL/TLS Certificates
 Request a public certificate
