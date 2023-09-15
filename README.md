@@ -7,7 +7,7 @@ Create a hosted zone for the domain - Create an alias record (the same region as
 
 ### AWS WAF provides protection against attacks at the application layer (OSI Layer 7) as against NACLs/Security Groups which provide protection at the network/transport layer (OSI Layer 3/4)
 
-### WAF components: Access Control Lists9ACL), Rules and Rule Groups
+### WAF components: Access Control Lists(ACL), Rules and Rule Groups
 
 ### AWS ACM - Provisions, manages, and deploys public/private SSL/TLS Certificates
 Request a public certificate
