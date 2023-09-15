@@ -9,10 +9,10 @@ Create a hosted zone for the domain - Create an alias record (the same region as
 
 ***WAF components: Access Control Lists (ACL), Rules, and Rule Groups(Rules can be used individually or in reusable rule groups)***
 
-### Web ACLs
+#### Web ACLs
 Create a web access control list (ACL) by adding rules to protect your resources (including managed rules maintained by AWS)
 
-### Rules 
+#### Rules 
 Create rules to look for certain criteria and take action if the criteria are met (e.g., Allow request or Block request)
 Each rule is assigned a WCU (Web ACL capacity unit), and all rules assigned to a particular Web ACL are capped at 5000 WCU, but using over 1500 WCUs affects your costs.
 ![Request a public certificate](./assets/WAFrules.png)
