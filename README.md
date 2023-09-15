@@ -10,7 +10,7 @@ Create a hosted zone for the domain - Create an alias record (the same region as
 ***WAF components: Access Control Lists (ACL), Rules, and Rule Groups(Rules can be used individually or in reusable rule groups)***
 
 #### Web ACLs
-Create a web access control list (ACL) by adding rules to protect your resources (including managed rules maintained by AWS)
+Create a web access control list (ACL) by adding rules to protect your resources (including managed rules maintained by AWS), and associate the web ACL to your ALB
 
 #### Rules 
 Create rules to look for certain criteria and take action if the criteria are met (e.g., Allow request or Block request)
