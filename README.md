@@ -13,7 +13,8 @@ Understanding AWS Route 53 DNS Resolver, WAF Firewall, ACM, ALB, EC2 web servere
 
 ### AWS ACM - Provisions, manages, and deploys public/private SSL/TLS Certificates
 Request a public certificate
-![Request a public certificate]()
+
+![Request a public certificate](./assets/RequestPublicCert.png)
 Add domain name from your Route 53 hosted zone and validate the domain by creating a CNAME record in Route 53 (this can be done automatically from ACM)
 
 ### AWS ALB - Distributes incoming traffic across multiple targets, such as EC2 instances.
