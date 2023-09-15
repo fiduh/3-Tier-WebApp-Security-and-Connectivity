@@ -14,7 +14,7 @@ Create a web access control list (ACL) by adding rules to protect your resources
 
 ### Rules 
 Create rules to look for certain criteria and take action if the criteria are met (e.g., Allow request or Block request)
-Each rule is assigned a WCU (Web ACL capacity unit), and all rules assigned to a particular Web ACL are capped at 1500 WCU
+Each rule is assigned a WCU (Web ACL capacity unit), and all rules assigned to a particular Web ACL are capped at 5000 WCU, but using over 1500 WCUs affects your costs.
 
 ### Rules groups
 Rules can be used individually or in reusable rule groups
