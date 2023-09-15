@@ -19,6 +19,6 @@ Add domain name from your Route 53 hosted zone and validate the domain by creati
 
 ### AWS ALB - Distributes incoming traffic across multiple targets, such as EC2 instances.
 
-### Create an application load balancer
+### Create an application load balancer in a Public Subnet
 
 ### Create a target group that should consist of the EC2 webservers, so the ALB can route traffic to them.
