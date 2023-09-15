@@ -1,5 +1,5 @@
-# 3-Tier-WebApp-Security-and-Connectivity
-Understanding AWS Route 53 DNS Resolver, WAF Firewall, ACM, ALB, EC2 web servere
+# Web Application Security and Connectivity
+Practical application of AWS Route 53, WAF Firewall, ACM, ALB, EC2 webserver
 
 ### AWS Route 53 - connects user requests to applications, resolves domain names, and returns IP addresses
 
